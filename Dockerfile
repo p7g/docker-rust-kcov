@@ -20,6 +20,10 @@ RUN apt-get update \
     && DEBIAN_FRONTEND=noninteractive apt-get install -y -q \
         curl \
         libssl-dev \
+        python3.4 \
+        libpython3.4 \
+        libpython3.4-dev \
+        python3 \
     && rm -rf /var/lib/apt/lists/*
 
 
