@@ -8,7 +8,7 @@ FROM ragnaroek/kcov:v33
 
 # Install Rust
 # Stable channel
-ENV RUST_TOOLCHAIN=1.22.1
+ENV RUST_TOOLCHAIN=1.32.0
 
 # Add GitHub's SSH fingerprint to the image global known host list.
 # This allows cargo to clone the registry in a CI environment without asking
